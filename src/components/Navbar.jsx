@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
     return(
-        <nav>
+        <nav className="navbar">
             <h2>Taskmanager</h2>
             <div>
                 <Link to="/">Главная</Link>
